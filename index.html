@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GL FIXCORE | Servicio técnico y gaming</title>
+  <meta name="description" content="Reparación, mantenimiento y modificación de consolas, y catálogo de videojuegos. GL FIXCORE, Lima - Perú.">
+  <meta name="theme-color" content="#05090f">
+  <link rel="icon" href="images/logo.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ============ CABECERA ============ -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="brand" aria-label="GL FIXCORE, ir al inicio">
+        <span class="brand__mark" role="img" aria-label="Logo GL FIXCORE"></span>
+        <span class="brand__text">GL <strong>FIXCORE</strong></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#juegos">Juegos</a>
+        <a href="#nosotros">Sobre nosotros</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <div class="header__social">
+        <!-- Cambia los href por tus redes reales -->
+        <a href="#" aria-label="Instagram" class="icon-btn"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r=".8" fill="currentColor"/></svg></a>
+        <a href="#" aria-label="TikTok" class="icon-btn"><svg viewBox="0 0 24 24"><path d="M10 12.5a3.5 3.5 0 1 0 3.5 3.5V3.5c.4 2.4 2.1 4 4.5 4.3"/></svg></a>
+        <a href="#" aria-label="Facebook" class="icon-btn"><svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+        <a href="#" aria-label="YouTube" class="icon-btn"><svg viewBox="0 0 24 24"><path d="M22.5 6.4a2.8 2.8 0 0 0-2-2C18.9 4 12 4 12 4s-6.900 0-8.500.4a2.800 2.800 0 0 0-2 2A29 29 0 0 0 1 11.800a29 29 0 0 0 .5 5.300 2.800 2.800 0 0 0 2 2C5.100 19.500 12 19.500 12 19.500s6.900 0 8.500-.4a2.800 2.800 0 0 0 2-2 29 29 0 0 0 .5-5.300 29 29 0 0 0-.5-5.400z"/><path d="M9.800 15 15.500 11.800 9.800 8.500z"/></svg></a>
+      </div>
+
+      <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="inicio">
+      <!-- Para poner una foto de fondo: guarda images/hero/fondo.jpg (se carga sola) -->
+      <div class="hero__bg" data-img="images/hero/fondo.jpg"></div>
+      <div class="hero__circuit" aria-hidden="true"></div>
+
+      <div class="container hero__inner">
+        <div class="orb" aria-hidden="true">
+          <img src="images/logo.jpg" alt="">
+        </div>
+
+        <p class="hero__kicker">Servicio técnico y gaming</p>
+        <h1 class="hero__title">Tu consola,<br><span>en buenas manos</span></h1>
+        <p class="hero__lead">Reparación, mantenimiento, modificaciones y juegos. Todo en un solo lugar.</p>
+
+        <div class="hero__actions">
+          <a href="#" class="btn btn--primary" data-whatsapp>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 11.500a8.400 8.400 0 0 1-12.400 7.400L3 20.500l1.700-5.400A8.400 8.400 0 1 1 21 11.500z"/></svg>
+            Cotizar por WhatsApp
+          </a>
+          <a href="#juegos" class="btn btn--ghost">Ver catálogo de juegos</a>
+        </div>
+
+        <ul class="hero__words" aria-label="Lo que hacemos">
+          <li>Repara</li><li>Juega</li><li>Personaliza</li><li>Disfruta</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ SERVICIOS ============ -->
+    <section class="section" id="servicios">
+      <div class="container">
+        <header class="section__head">
+          <h2>Nuestros servicios</h2>
+          <p>Cuidamos tu consola por dentro y por fuera.</p>
+        </header>
+
+        <div class="services">
+
+          <!-- Para agregar foto: guarda el archivo en images/services/ y cambia data-img -->
+          <article class="service">
+            <div class="service__media" data-img="images/services/reparacion.jpg">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.700 6.300a1 1 0 0 0 0 1.400l1.600 1.600a1 1 0 0 0 1.400 0l3.800-3.800a6 6 0 0 1-7.900 7.900l-6.900 6.900a2.100 2.100 0 0 1-3-3l6.900-6.900a6 6 0 0 1 7.900-7.900z"/></svg>
+            </div>
+            <div class="service__body">
+              <h3>Reparación de consolas</h3>
+              <p>Diagnóstico y reparación de fallas electrónicas y de hardware: no enciende, sin imagen, puertos HDMI y USB, lectores de disco y más.</p>
+            </div>
+          </article>
+
+          <article class="service">
+            <div class="service__media" data-img="images/services/mantenimiento.jpg">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.600 5.600l2.100 2.100M16.300 16.300l2.100 2.100M18.400 5.600l-2.100 2.100M7.700 16.300l-2.100 2.100"/><circle cx="12" cy="12" r="3"/></svg>
+            </div>
+            <div class="service__body">
+              <h3>Mantenimiento de consolas</h3>
+              <p>Limpieza interna, cambio de pasta térmica y optimización de temperatura para que tu consola rinda mejor y dure más.</p>
+            </div>
+          </article>
+
+          <article class="service">
+            <div class="service__media" data-img="images/services/modificacion.jpg">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="6" width="12" height="12" rx="2"/><rect x="9.500" y="9.500" width="5" height="5"/><path d="M9 2v4M15 2v4M9 18v4M15 18v4M2 9h4M2 15h4M18 9h4M18 15h4"/></svg>
+            </div>
+            <div class="service__body">
+              <h3>Modificación de consolas</h3>
+              <p>Flasheo, liberación y más según el modelo de tu consola. Consulta por la disponibilidad de tu equipo.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROCESO ============ -->
+    <section class="section section--alt" id="proceso">
+      <div class="container container--narrow">
+        <header class="section__head">
+          <h2>Así trabajamos</h2>
+          <p>Cuatro pasos, sin sorpresas.</p>
+        </header>
+
+        <ol class="steps">
+          <li>
+            <h3>Cuéntanos qué pasa</h3>
+            <p>Escríbenos por WhatsApp con el modelo de tu consola y la falla que presenta.</p>
+          </li>
+          <li>
+            <h3>Revisamos tu equipo</h3>
+            <p>Hacemos un diagnóstico y te enviamos la cotización antes de empezar.</p>
+          </li>
+          <li>
+            <h3>Reparamos o mejoramos</h3>
+            <p>Trabajamos con cuidado y probamos que todo funcione correctamente.</p>
+          </li>
+          <li>
+            <h3>Recibe tu consola</h3>
+            <p>Recógela en tienda o te la enviamos a cualquier punto del Perú.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ CATÁLOGO DE JUEGOS ============ -->
+    <section class="section" id="juegos">
+      <div class="container">
+        <header class="section__head">
+          <h2>Catálogo de juegos</h2>
+          <p>Explora por género o busca por nombre.</p>
+        </header>
+
+        <div class="catalog__tools">
+          <label class="search" for="gameSearch">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.500-3.500"/></svg>
+            <input type="search" id="gameSearch" placeholder="Buscar juego por nombre…" autocomplete="off">
+          </label>
+
+          <div class="chips" id="genreChips" role="group" aria-label="Filtrar por género"></div>
+        </div>
+
+        <p class="catalog__count" id="gameCount" aria-live="polite"></p>
+
+        <div class="games" id="gamesGrid"></div>
+
+        <nav class="pagination" id="pagination" aria-label="Paginación del catálogo" hidden></nav>
+
+        <div class="empty" id="gamesEmpty" hidden>
+          <h3>No encontramos ese juego</h3>
+          <p>Prueba con otro nombre o cambia el género. ¿Buscas uno en especial? Pregúntanos por WhatsApp.</p>
+          <a href="#" class="btn btn--ghost" data-whatsapp="Hola GL FIXCORE, estoy buscando un juego:">Consultar por WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SOBRE NOSOTROS ============ -->
+    <section class="section section--alt" id="nosotros">
+      <div class="container container--narrow">
+        <header class="section__head">
+          <h2>Sobre nosotros</h2>
+        </header>
+
+        <!-- TEXTO GENÉRICO: reemplázalo por tu historia real -->
+        <div class="about">
+          <p>Somos un equipo apasionado por los videojuegos y la tecnología. Nacimos con la idea de ofrecer un servicio técnico confiable para quienes quieren que su consola funcione como el primer día.</p>
+          <p>Combinamos experiencia técnica, atención cercana y un catálogo de juegos para todos los gustos. Aquí encontrarás un lugar donde reparar, mejorar y disfrutar tu consola.</p>
+          <p>Nuestro compromiso es trabajar con transparencia, cuidar cada equipo como si fuera nuestro y acompañarte antes, durante y después del servicio.</p>
+        </div>
+
+        <ul class="values">
+          <li><h3>Confianza</h3><p>Te explicamos el problema y el costo antes de empezar.</p></li>
+          <li><h3>Calidad</h3><p>Cada trabajo se prueba antes de la entrega.</p></li>
+          <li><h3>Cercanía</h3><p>Te atendemos directamente por WhatsApp.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ CONTACTO ============ -->
+    <section class="section" id="contacto">
+      <div class="container container--narrow">
+        <header class="section__head">
+          <h2>Visítanos o escríbenos</h2>
+          <p>Estamos en Lima y enviamos a todo el Perú.</p>
+        </header>
+
+        <ul class="contact">
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.100-7-11a7 7 0 0 1 14 0c0 4.900-7 11-7 11z"/><circle cx="12" cy="10" r="2.500"/></svg>
+            <div>
+              <h3>Dirección</h3>
+              <p>C.C Polvos Azules - Sótano<br>Av. Paseo de la República N° 475, Lima, Perú<br>Calle 6 · Block 2 · Tienda 24</p>
+            </div>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+            <div>
+              <h3>Horario de atención</h3>
+              <p>Lunes a sábado<br>10:00 a.m. a 8:00 p.m.</p>
+            </div>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h11v10H3zM14 9h4l3 3v4h-7z"/><circle cx="7" cy="18" r="1.800"/><circle cx="17" cy="18" r="1.800"/></svg>
+            <div>
+              <h3>Envíos</h3>
+              <p>A todo el Perú<br>Lima y provincias</p>
+            </div>
+          </li>
+        </ul>
+
+        <div class="cta">
+          <h3>¿Listo para cotizar?</h3>
+          <p>Cuéntanos el modelo de tu consola y qué necesitas.</p>
+          <a href="#" class="btn btn--primary" data-whatsapp>Cotizar por WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ PIE DE PÁGINA ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#inicio" class="brand" aria-label="GL FIXCORE, volver arriba">
+        <span class="brand__mark" role="img" aria-label="Logo GL FIXCORE"></span>
+        <span class="brand__text">GL <strong>FIXCORE</strong></span>
+      </a>
+      <p class="footer__tag">Servicio técnico y gaming</p>
+      <div class="header__social">
+        <a href="#" aria-label="Instagram" class="icon-btn"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r=".8" fill="currentColor"/></svg></a>
+        <a href="#" aria-label="TikTok" class="icon-btn"><svg viewBox="0 0 24 24"><path d="M10 12.5a3.5 3.5 0 1 0 3.5 3.5V3.5c.4 2.4 2.1 4 4.5 4.3"/></svg></a>
+        <a href="#" aria-label="Facebook" class="icon-btn"><svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+        <a href="#" aria-label="YouTube" class="icon-btn"><svg viewBox="0 0 24 24"><path d="M22.5 6.4a2.8 2.8 0 0 0-2-2C18.9 4 12 4 12 4s-6.900 0-8.500.4a2.800 2.800 0 0 0-2 2A29 29 0 0 0 1 11.800a29 29 0 0 0 .5 5.300 2.800 2.800 0 0 0 2 2C5.100 19.500 12 19.500 12 19.500s6.900 0 8.500-.4a2.800 2.800 0 0 0 2-2 29 29 0 0 0 .5-5.300 29 29 0 0 0-.5-5.400z"/><path d="M9.800 15 15.500 11.800 9.800 8.500z"/></svg></a>
+      </div>
+      <p class="footer__copy">© <span id="year"></span> GL FIXCORE. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Botón flotante de WhatsApp -->
+  <a href="#" class="wa-float" data-whatsapp aria-label="Escríbenos por WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 11.500a8.400 8.400 0 0 1-12.400 7.400L3 20.500l1.700-5.400A8.400 8.400 0 1 1 21 11.500z"/></svg>
+  </a>
+
+  <script src="js/games.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
